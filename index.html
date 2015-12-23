@@ -7,103 +7,109 @@
     <script src=index.js defer></script>
   </head>
   <body>
-    <div class="board">
+    <div class="overAllboard">
       <div class='player'>Player</div>
-      <div>
-        <div class='col0' id='07'></div>
-        <div class='col0' id='06'></div>
-        <div class='col0' id='05'></div>
-        <div class='col0' id='04'></div>
-        <div class='col0' id='03'></div>
-        <div class='col0' id='02'></div>
-        <div class='col0' id='01'></div>
-        <div class='col0' id='00'></div>
-      </div>
-      <div>
-        <div class='col1' id='17'></div>
-        <div class='col1' id='16'></div>
-        <div class='col1' id='15'></div>
-        <div class='col1' id='14'></div>
-        <div class='col1' id='13'></div>
-        <div class='col1' id='12'></div>
-        <div class='col1' id='11'></div>
-        <div class='col1' id='10'></div>
-      </div>
-      <div>
-        <div class='col2'id='27'></div>
-        <div class='col2'id='26'></div>
-        <div class='col2'id='25'>
-          <div class="dot"></div>
+      <div class='board'>
+        <div>
+          <div class='col0' id='cell07'><div class='undot'></div></div>
+          <div class='col0' id='cell06'><div class='undot'></div></div>
+          <div class='col0' id='cell05'><div class='undot'></div></div>
+          <div class='col0' id='cell04'><div class='undot'></div></div>
+          <div class='col0' id='cell03'><div class='undot'></div></div>
+          <div class='col0' id='cell02'><div class='undot'></div></div>
+          <div class='col0' id='cell01'><div class='undot'></div></div>
+          <div class='col0' id='cell00'><div class='undot'></div></div>
         </div>
-        <div class='col2'id='24'></div>
-        <div class='col2'id='23'></div>
-        <div class='col2'id='22'></div>
-        <div class='col2'id='21'>
-          <div class="dot"></div>
+        <div>
+          <div class='col1' id='cell17'><div class='undot'></div></div>
+          <div class='col1' id='cell16'><div class='undot'></div></div>
+          <div class='col1' id='cell15'><div class='undot'></div></div>
+          <div class='col1' id='cell14'><div class='undot'></div></div>
+          <div class='col1' id='cell13'><div class='undot'></div></div>
+          <div class='col1' id='cell12'><div class='undot'></div></div>
+          <div class='col1' id='cell11'><div class='undot'></div></div>
+          <div class='col1' id='cell10'><div class='undot'></div></div>
         </div>
-        <div class='col2'id='20'></div>
-      </div>
-      <div>
-        <div class='col3'id='37'></div>
-        <div class='col3'id='36'></div>
-        <div class='col3'id='35'></div>
-        <div class='col3'id='34'>
-          <img src="WX_circle_white.png"/>
+        <div>
+          <div class='col2' id='cell27'><div class='undot'></div></div>
+          <div class='col2' id='cell26'><div class='undot'></div></div>
+          <div class='col2' id='cell25'>
+            <div class="dot"></div>
+          </div>
+          <div class='col2' id='cell24'><div class='undot'></div></div>
+          <div class='col2' id='cell23'><div class='undot'></div></div>
+          <div class='col2' id='cell22'><div class='undot'></div></div>
+          <div class='col2' id='cell21'>
+            <div class="dot"></div>
+          </div>
+          <div class='col2' id='cell20'><div class='undot'></div></div>
         </div>
-        <div class='col3'id='33'>
-          <img src="WX_circle_black.png"/>
+        <div>
+          <div class='col3' id='cell37'><div class='undot'></div></div>
+          <div class='col3' id='cell36'><div class='undot'></div></div>
+          <div class='col3' id='cell35'><div class='undot'></div></div>
+          <div class='col3' id='cell34'>
+            <div class='undot'></div>
+            <img src="WX_circle_white.png"/>
+          </div>
+          <div class='col3' id='cell33'>
+            <div class='undot'></div>
+            <img src="WX_circle_black.png"/>
+          </div>
+          <div class='col3' id='cell32'><div class='undot'></div></div>
+          <div class='col3' id='cell31'><div class='undot'></div></div>
+          <div class='col3' id='cell30'><div class='undot'></div></div>
         </div>
-        <div class='col3'id='32'></div>
-        <div class='col3'id='31'></div>
-        <div class='col3'id='30'></div>
-      </div>
-      <div>
-        <div class='col4'id='47'></div>
-        <div class='col4'id='46'></div>
-        <div class='col4'id='45'></div>
-        <div class='col4'id='44'>
-          <img src="WX_circle_black.png"/>
+        <div>
+          <div class='col4' id='cell47'><div class='undot'></div></div>
+          <div class='col4' id='cell46'><div class='undot'></div></div>
+          <div class='col4' id='cell45'><div class='undot'></div></div>
+          <div class='col4' id='cell44'>
+            <div class='undot'></div>
+            <img src="WX_circle_black.png"/>
+          </div>
+          <div class='col4' id='cell43'>
+            <div class='undot'></div>
+            <img src="WX_circle_white.png"/>
+          </div>
+          <div class='col4' id='cell42'><div class='undot'></div></div>
+          <div class='col4' id='cell41'><div class='undot'></div></div>
+          <div class='col4' id='cell40'><div class='undot'></div></div>
         </div>
-        <div class='col4'id='43'>
-          <img src="WX_circle_white.png"/>
+        <div>
+          <div class='col5' id='cell57'><div class='undot'></div></div>
+          <div class='col5' id='cell56'><div class='undot'></div></div>
+          <div class='col5' id='cell55'><div class='undot'></div></div>
+          <div class='col5' id='cell54'><div class='undot'></div></div>
+          <div class='col5' id='cell53'><div class='undot'></div></div>
+          <div class='col5' id='cell52'><div class='undot'></div></div>
+          <div class='col5' id='cell51'><div class='undot'></div></div>
+          <div class='col5' id='cell50'><div class='undot'></div></div>
         </div>
-        <div class='col4'id='42'></div>
-        <div class='col4'id='41'></div>
-        <div class='col4'id='40'></div>
-      </div>
-      <div>
-        <div class='col5'id='57'></div>
-        <div class='col5'id='56'></div>
-        <div class='col5'id='55'></div>
-        <div class='col5'id='54'></div>
-        <div class='col5'id='53'></div>
-        <div class='col5'id='52'></div>
-        <div class='col5'id='51'></div>
-        <div class='col5'id='50'></div>
-      </div>
-      <div>
-        <div class='col6'id='67'></div>
-        <div class='col6'id='66'></div>
-        <div class='col6'id='65'>
-          <div class="dot"></div>
+        <div>
+          <div class='col6' id='cell67'><div class='undot'></div></div>
+          <div class='col6' id='cell66'><div class='undot'></div></div>
+          <div class='col6' id='cell65'>
+            <div class="dot"></div>
+          </div>
+          <div class='col6' id='cell64'><div class='undot'></div></div>
+          <div class='col6' id='cell63'><div class='undot'></div></div>
+          <div class='col6' id='cell62'><div class='undot'></div></div>
+          <div class='col6' id='cell61'>
+            <div class="dot"></div>
+          </div>
+          <div class='col6' id='cell60'><div class='undot'></div></div>
         </div>
-        <div class='col6'id='64'></div>
-        <div class='col6'id='63'></div>
-        <div class='col6'id='62'></div>
-        <div class='col6'id='61'>
-          <div class="dot"></div>
+        <div>
+          <div class='col7' id='cell77'><div class='undot'></div></div>
+          <div class='col7' id='cell76'><div class='undot'></div></div>
+          <div class='col7' id='cell75'><div class='undot'></div></div>
+          <div class='col7' id='cell74'><div class='undot'></div></div>
+          <div class='col7' id='cell73'><div class='undot'></div></div>
+          <div class='col7' id='cell72'><div class='undot'></div></div>
+          <div class='col7' id='cell71'><div class='undot'></div></div>
+          <div class='col7' id='cell70'><div class='undot'></div></div>
         </div>
-        <div class='col6'id='60'></div>
-      </div>
-      <div>
-        <div class='col7'id='77'></div>
-        <div class='col7'id='76'></div>
-        <div class='col7'id='75'></div>
-        <div class='col7'id='74'></div>
-        <div class='col7'id='73'></div>
-        <div class='col7'id='72'></div>
-        <div class='col7'id='71'></div>
-        <div class='col7'id='70'></div>
       </div>
       <div class='player'>Player</div>
     </div>
